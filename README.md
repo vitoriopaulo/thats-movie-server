@@ -36,7 +36,7 @@ released togheter, as an integrated product.
 | DELETE | `/sign-out/:id` | `users#signout`  |
 | PATCH   | `/change-password/:id`  | `users#changepw` |
 | GET   | `/movies`  | `movies#index` |
-| GET   | `/movie/:id | `movie#show` |
+| GET   | `/movie/:id` | `movie#show` |
 | POST   | `/movie`  | `movie#create`  |
 | PATCH   | `/movie/:id`  | `movies#update` |
 | DELETE   | `/movie/:id`  | `movie#destroy` |
