@@ -36,9 +36,10 @@ released togheter, as an integrated product.
 | DELETE | `/sign-out/:id` | `users#signout`  |
 | PATCH   | `/change-password/:id`  | `users#changepw` |
 | GET   | `/movies`  | `movies#index` |
-| POST   | `/movies`  | `movies#create`  |
-| PATCH   | `/movies/:id`  | `movies#update` |
-| DELETE   | `/movies/:id`  | `movies#destroy` |
+| GET   | `/movie/:id | `movie#show` |
+| POST   | `/movie`  | `movie#create`  |
+| PATCH   | `/movie/:id`  | `movies#update` |
+| DELETE   | `/movie/:id`  | `movie#destroy` |
 
 ***Note:*** *all data returned is in JSON.*
 
